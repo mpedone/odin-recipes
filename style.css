@@ -3,6 +3,12 @@
     font-family: Verdana, 'Segoe UI', Tahoma, sans-serif;
 }
 
+h1 {
+    border: #ddeeff solid 1px;
+    background: linear-gradient(90deg, #FFFFFF, #ddeeff);
+    padding: 10px;
+}
+
 p, 
 li {
     font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
