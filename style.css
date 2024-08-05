@@ -3,10 +3,14 @@
     font-family: Verdana, 'Segoe UI', Tahoma, sans-serif;
 }
 
-h1 {
+h1, h2 {
     border: #ddeeff solid 1px;
     background: linear-gradient(90deg, #FFFFFF, #ddeeff);
     padding: 10px;
+}
+
+h2 {
+    padding: 5px;
 }
 
 p, 
