@@ -1,5 +1,5 @@
 * {
-    background-color: #051C33;
+    background-color: #5995da;
     font-family: Verdana, 'Segoe UI', Tahoma, sans-serif;
 }
 
@@ -8,10 +8,16 @@ a {
     text-decoration: none;
 }
 
+h1 a {
+    background-color: #dddddd;
+    background: linear-gradient(90deg, #dddddd, #5995da);
+    background-blend-mode: hue;
+}
+
 h1, 
 h2 {
     /* border: #ddeeff solid 1px; */
-    background: linear-gradient(90deg, #dddddd, #051C33);
+    background: linear-gradient(90deg, #dddddd, #5995da);
     padding: 10px;
 }
 
@@ -32,6 +38,7 @@ p {
 
 .recipe_list {
     display: inline;
+    background-color: #d6e9fe;
 }
 
 .recipe {
@@ -48,6 +55,12 @@ p {
     width: 200px;
     box-sizing: border-box;
 }
+
+.recipe img:hover {
+    opacity: 100%;
+}
+
+
 
 .recipe_link {
     background-color: #dddddd;
